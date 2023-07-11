@@ -1,0 +1,66 @@
+.sectionSeven{
+    background-color: #fff;
+    padding: 4rem;
+    max-height: 4000px;
+
+}
+
+.sectionSeven-container{
+    display: flex;
+    flex-flow: row;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    max-height: 2000px;
+}
+
+.sectionSeven-info{
+
+    margin-top:250px;
+    margin-bottom:100px;
+    margin-left: -30px;    
+}
+
+.sectionSeven-images{
+    margin-left: 30px;
+    margin-right:-100px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+    
+ 
+    
+}
+
+.sectionSeven-img{
+    margin: 20px;
+    color: white;
+    padding: 110px 50px;
+    text-align: center;
+    min-width: 420px;
+    border-radius: 8px 8px 8px 8px;
+    height: 300px;
+    width: 600px;
+    box-sizing: border-box;
+    
+}
+.sectionSeven-heading{
+    margin-top: -200px;
+    color: var(--themeColor);
+    font-family: "Oswald", Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.sectionSeven-title{
+    margin-top: 20px;
+    color: #131C3B;
+    font-family: "Oswald", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+.sectionSeven-questions{
+    margin-top: 30px;
+}

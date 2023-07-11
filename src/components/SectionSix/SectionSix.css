@@ -1,0 +1,123 @@
+.sectionSix {
+  padding: 8rem;
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #f9f9f9 70%, var(--themeColor) 0%);
+}
+
+.sectionSix-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.sectionSix-card-wrapper {
+  position: relative;
+  width: 50%;
+  display: flex;
+}
+.sectionSix-gap {
+  width: 150px;
+}
+
+.sectionSix-card-title {
+  margin: 20px;
+}
+.sectionSix-card-description {
+  margin: 20px;
+}
+
+.sectionSix-text {
+  color: #555555;
+  display: block;
+
+  padding: 0px 0px 25px 0px;
+  margin-top: 30px;
+  font-family: "Assistant", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.sectionSix-info {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sectionSix-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .sectionSix {
+    background: #f9f9f9;
+  }
+  .SectionSix-image-decoration1 {
+    display: none;
+  }
+  .SectionSix-image-decoration2 {
+    display: none;
+  }
+  .sectionSix-card-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+}
+
+.SectionSix-image-decoration1 {
+  position: absolute;
+  left: -20px;
+  top: -30px;
+}
+.SectionSix-image-decoration2 {
+  position: absolute;
+  right: -20px;
+  bottom: -30px;
+}
+.sectionSix-heading {
+  margin-top: -50px;
+  color: var(--themeColor);
+  font-family: "Oswald", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sectionSix-title {
+  color: #131c3b;
+  margin-top: 20px;
+  font-family: "Oswald", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.sectionSix-button {
+  font-family: "Assistant", Sans-serif;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: var(--themeColor);
+  border-radius: 0px 0px 0px 0px;
+  padding: 20px 30px 20px 30px;
+  border: none;
+  outline: none;
+}
+.feedBackCard{
+  width: 100%;
+}
+@media only screen and (max-width: 560px) {
+  .sectionSix{
+    padding: 10px !important;
+  }
+}
+.sectionSix-button:hover {
+  background-color: #131c3b;
+  color: #fff;
+  transition: all 0.5s ease;
+}
